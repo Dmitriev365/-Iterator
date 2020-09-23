@@ -18,14 +18,14 @@ namespace Iterator
             Iterator iterator = aggregate.CreateIterator();
 
 
-            Console.WriteLine("Первый элемент коллекции:");
+            Console.WriteLine("First Collection Element:");
 
             object element = iterator.First();
             Console.WriteLine(element);
 
             Console.WriteLine(new string('-', 25));
 
-            Console.WriteLine("Итерация по коллекции:");            
+            Console.WriteLine("Collection Iteration:");            
             while (!iterator.IsDone())
             {
                 Console.WriteLine(element);

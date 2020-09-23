@@ -22,7 +22,7 @@ namespace DoFactory.GangOfFour.Iterator.Structural
         /// </summary>
         static void Main()
         {
-          
+
             ConcreteAggregate a = new ConcreteAggregate();
             a[0] = "Item A"
            ;
